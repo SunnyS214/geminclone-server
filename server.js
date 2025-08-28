@@ -12,10 +12,10 @@ const app = express();
 app.use(cors({
   origin: [
     "https://gemini-ie4vnpwki-sunnyss-projects.vercel.app",
-    "https://gemini-1zopv3du1-sunnyss-projects.vercel.app/", // Your Vercel app
+    "https://gemini-1zopv3du1-sunnyss-projects.vercel.app", // Your Vercel app
     "http://localhost:5173", // Local development
    ,
-    "https://gemini-woad-ten.vercel.app/" // New public URL (when you make it public)
+    "https://gemini-woad-ten.vercel.app" // New public URL (when you make it public)
   ],
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE"],
